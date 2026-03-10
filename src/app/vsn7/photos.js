@@ -1,0 +1,20 @@
+export const Vsn7Photos = [
+  { src: "/witch-pages/vsn7/photos/acbd.jpg" },
+  { src: "/witch-pages/vsn7/photos/accc.jpg" },
+  { src: "/witch-pages/vsn7/photos/adab.jpg" },
+  { src: "/witch-pages/vsn7/photos/adca.jpg" },
+  { src: "/witch-pages/vsn7/photos/badd.jpg" },
+  { src: "/witch-pages/vsn7/photos/cacb.jpg" },
+  { src: "/witch-pages/vsn7/photos/cbab.jpg" },
+  { src: "/witch-pages/vsn7/photos/cbba.jpg" },
+  { src: "/witch-pages/vsn7/photos/cbda.jpg" },
+  { src: "/witch-pages/vsn7/photos/ccbb.jpg" },
+  { src: "/witch-pages/vsn7/photos/cddc.jpg" },
+  { src: "/witch-pages/vsn7/photos/cddd.jpg" },
+  { src: "/witch-pages/vsn7/photos/daaa.jpg" },
+  { src: "/witch-pages/vsn7/photos/dacb.jpg" },
+  { src: "/witch-pages/vsn7/photos/dbac.jpg" },
+  { src: "/witch-pages/vsn7/photos/dbda.jpg" },
+  { src: "/witch-pages/vsn7/photos/dccb.jpg" },
+  { src: "/witch-pages/vsn7/photos/ddab.jpg" }
+];

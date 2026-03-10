@@ -1,0 +1,88 @@
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+}
+
+.s img {
+    max-width: 450px;
+    height: auto;
+    object-fit: contain;
+    cursor: var(--pointer-cursor), pointer;
+}
+
+.l img {
+    max-width: 350px;
+    height: auto;
+    object-fit: contain;
+    cursor: var(--pointer-cursor), pointer;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 30%;
+    /* IE10 */
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 4px;
+    justify-content: center;
+    vertical-align: center;
+    pointer-events: auto;
+}
+
+.column img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column:hover img {
+    cursor: url("/resources/cursors/red_select.cur"), pointer;
+}
+
+.column:hover .glitch-text {
+    animation: glitchText 600ms cubic-bezier(.32, 2, .55, .27) infinite;
+}
+
+.column:hover .glitch-clip {
+    animation: glitchClip 2000ms linear infinite;
+}
+
+.column:hover .witch-link,
+.column:hover .witch-link-small {
+    text-decoration: underline;
+    color: #8a0303;
+}
+
+.column img {
+    margin-top: 20px;
+    vertical-align: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        /* -ms-flex: 50%;
+        flex: 50%; */
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        /* -ms-flex: 100%;
+        flex: 100%; */
+        /* max-width: 100%; */
+    }
+}
+
+img {
+    width: 100%;
+    vertical-align: center;
+}

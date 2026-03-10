@@ -1,0 +1,106 @@
+.text-background p {
+    //background-image: url("../../witchhouse-music-website/resources/images/blood-forest.gif");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Steelfish Rg', 'helvetica neue',
+        helvetica, arial, sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.text-rotated {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+.header-with-bg {
+    margin: 0 auto;
+    max-width: 900px;
+    font-size: 100px;
+}
+
+.text-background-radost {
+    background-image: url("/resources/images/blood-forest.gif");
+    font-size: 120px;
+}
+
+.text-background-tubfuck {
+    background-image: url("/resources/images/blood.gif");
+    font-size: 120px;
+}
+
+.text-background-cain {
+    background-image: url("/resources/images/water.gif");
+    font-size: 220px;
+}
+
+.text-background-depressed {
+    background-image: url("/resources/images/663506957637434250.gif");
+    font-size: 80px;
+}
+
+.text-background-fraunhofer {
+    background-image: url("/resources/images/663506957637469065.gif");
+    font-size: 60px;
+}
+
+.text-background-summer {
+    background-image: url("/resources/images/663506957632509414.gif");
+    font-size: 60px;
+}
+
+.text-background-vv17chou7 {
+    background-image: url("/resources/images/baba.gif");
+    font-size: 60px;
+}
+
+.text-background-gate {
+    background-image: url("/resources/images/ffb0f8140d20a8c6c434ba4c185cf43d.gif");
+    font-size: 80px;
+}
+
+.text-background-nedostupnost {
+    background-image: 'white';
+    font-size: 60px;
+}
+
+.text-background-marazm {
+    background-image: url("/resources/images/giphy2.gif");
+    font-size: 100px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .text-background-radost,
+    .text-background-tubfuck,
+    .text-background-marazm {
+        font-size: 90px;
+    }
+
+    .text-background-marazm {
+        font-size: 70px;
+    }
+
+    .text-background-cain {
+        font-size: 145px;
+    }
+
+    .text-background-cain .text-rotated {
+        font-size: 130px;
+    }
+
+    .text-rotated {
+        font-size: 60px;
+    }
+
+    .header-with-bg {
+        max-width: 700px;
+        font-size: 60px;
+    }
+}

@@ -1,0 +1,354 @@
+:root {
+
+    /* фон */
+    --witch-main-background: url("/resources/images/backgrounds/nurple-static-bright.gif");
+    --noise-background: url("/resources/images/backgrounds/noise.gif");
+
+    /* цвета */
+    --box-header-color: #4d0000;
+    --box-header-text-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url("/resources/cursors/red.cur"), auto;
+}
+
+/* * {
+    outline: 1px solid #f00 !important;
+   } */
+body {
+    height: 100%;
+    width: 100%;
+}
+
+html,
+body {
+    background-image: var(--witch-main-background);
+    font-family: dot;
+    cursor: url("/resources/cursors/red.cur"), auto;
+}
+
+iframe {
+    background: url("/resources/loading.gif");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: url("/resources/cursors/red_select.cur"), pointer;
+}
+
+/* scrollbar + cursor */
+* {
+    scrollbar-width: thin !important;
+    scrollbar-color: #4d0000 black !important;
+}
+
+*::-webkit-scrollbar {
+    width: 12px !important;
+}
+
+*::-webkit-scrollbar-track {
+    background: #4d0000 !important;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: black !important;
+}
+
+@media only screen and (max-width: 900px) {
+    .remove-on-mobile {
+        visibility: collapse;
+    }
+
+    .witch-page,
+    .witch-house-page {
+        min-width: 865px;
+    }
+
+    .webamp-witch {
+        display: none !important;
+    }
+}
+
+.witch-house-page {
+    height: 100%;
+    background-image: var(--witch-main-background);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.witch-page {
+    height: 100%;
+    background-image: var(--witch-main-background);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.witch-link {
+    text-align: center;
+    color: white;
+    font-family: Abbadon;
+    font-size: large;
+    cursor: url("/resources/cursors/red_select.cur"), pointer;
+
+}
+
+.witch-link-small {
+    text-align: center;
+    color: white;
+    font-family: LCD5 !important;
+    font-size: 12px;
+    cursor: url("/resources/cursors/red_select.cur"), pointer;
+    margin: 3px;
+
+}
+
+.witch-link:hover,
+.witch-link-small:hover {
+    text-decoration: underline;
+    color: #8a0303;
+    cursor: url("/resources/cursors/red_select.cur"), pointer;
+
+}
+
+
+.info {
+    /*    width: 1024px;
+    min-width: 800px;
+ !*максимальная ширина может иметь другое значение*!
+    padding: 0 15px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-image: url("resources/black.jpg");
+    background-repeat: repeat;*/
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    /*    background-image: url("resources/stars5.gif");
+    background-repeat: repeat;*/
+}
+
+.info-text {
+    font-family: LCD5;
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+    text-align: justify;
+
+}
+
+.info-text h1 {
+    font-family: LCD5;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+.info-section {
+    /*padding: 0 15px;*/
+}
+
+/* A media query for a large screen */
+@media (min-width: 1170px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+div.vv17ch {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    margin: 10px;
+    vertical-align: 'center';
+}
+
+div.vv17ch img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.vv17ch:hover img {
+    cursor: url("/resources/cursors/red_select.cur"), pointer;
+}
+
+div.vv17ch:hover .glitch-text {
+    animation: glitchText 600ms cubic-bezier(.32, 2, .55, .27) infinite;
+}
+
+div.vv17ch:hover .glitch-clip {
+    animation: glitchClip 2000ms linear infinite;
+}
+
+.vv17ch:hover .witch-link,
+.vv17ch:hover .witch-link-small {
+    text-decoration: underline;
+    color: #8a0303;
+}
+
+.vv17chImg {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    object-fit: contain;
+    cursor: url("/resources/cursors/red_select.cur"), pointer;
+}
+
+.vv17ch-caption {
+    display: block;
+    color: white;
+    margin: auto;
+}
+
+.vv17ch-container {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.music-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-container {
+    background: black;
+    box-shadow: 0 0 20px black;
+}
+
+.head-container {
+    background-image: url("/resources/images/smoke.gif");
+    background-repeat: repeat;
+    box-shadow: 0 0 20px black;
+}
+
+.link-back {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.link-back img {
+    height: 15px;
+    width: auto;
+}
+
+.link-back:visited {
+    color: white;
+}
+
+/* visited link */
+.link-back span:hover {
+    color: #8a0303 !important;
+    cursor: url("/resources/cursors/red_select.cur"), pointer;
+}
+
+.playlist-image {
+    height: 250px;
+    width: auto;
+}
+
+.vk-playlist {
+    margin: 20px;
+    width: 400px;
+}
+
+@media only screen and (max-width: 900px) {
+    .playlist-image {
+        max-width: 100px !important;
+        height: auto;
+    }
+
+    .vk-playlist {
+        margin: 20px;
+        width: 300px;
+    }
+
+    div.vv17ch {
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        width: 100px;
+        margin: 6px;
+        vertical-align: 'center';
+    }
+
+    .vv17chImg {
+        display: block;
+        width: 80px;
+        height: 80px;
+        margin: auto;
+        object-fit: contain;
+        cursor: url("/resources/cursors/red_select.cur"), pointer;
+    }
+
+}
+
+.webamp,
+.webamp-witch,
+.webamp-container,
+[class*="webamp"] {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+@font-face {
+    font-family: "LCD5";
+    src: url("/resources/fonts/LCD5x8HRU.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Abbadon";
+    src: url("/resources/fonts/Abaddon.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "evil-sound-font";
+    src: url("/resources/fonts/evil-sound-font/EvilSound-nRM8M.woff2") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "dot";
+    src: url("/resources/fonts/DotGothic16-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Better VCR";
+    src: url("/resources/fonts/Better\ VCR\ 6.1.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "CyrillicGoth";
+    src: url("/resources/fonts/ofont.ru_CyrillicGoth.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
