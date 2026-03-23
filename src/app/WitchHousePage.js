@@ -113,7 +113,7 @@ export function WitchHousePage({ lang }) {
               </div>
 
               <div className="vv17ch">
-                <Link href="/vedmin-dom">
+                <Link href="https://witch-house.vercel.app/vedmin-dom">
 
                   <GlitchSquiggly onHover={false}>
                     <img
@@ -129,7 +129,7 @@ export function WitchHousePage({ lang }) {
               </div>
 
               <div className="vv17ch">
-                <Link href="/vv17chou7">
+                <Link href="https://witch-house.vercel.app/vv17chou7">
 
                   <GlitchSquiggly onHover={false}>
                     <img
@@ -147,7 +147,7 @@ export function WitchHousePage({ lang }) {
               </div>
 
               <div className="vv17ch">
-                <Link href="/gate">
+                <Link href="https://witch-house.vercel.app/gate">
 
                   <GlitchSquiggly>
                     <img
@@ -163,7 +163,7 @@ export function WitchHousePage({ lang }) {
               </div>
 
               <div className="vv17ch">
-                <Link href="/nedostupnost">
+                <Link href="https://witch-house.vercel.app/nedostupnost">
 
                   <GlitchSquiggly>
                     <img
@@ -179,7 +179,7 @@ export function WitchHousePage({ lang }) {
               </div>
 
               <div className="vv17ch">
-                <Link href="/crimewave">
+                <Link href="https://witch-house.vercel.app/crimewave">
 
                   <GlitchSquiggly>
                     <img
@@ -229,7 +229,7 @@ export function WitchHousePage({ lang }) {
             <div className='row'>
               {/* Радость Моя */}
               <div className="column" >
-                <Link href="/radost-moja">
+                <Link href="https://witch-house.vercel.app/radost-moja">
 
                   <GlitchSquiggly onHover={false} className="s">
                     <img
@@ -246,7 +246,7 @@ export function WitchHousePage({ lang }) {
 
               {/* † CΛIN † */}
               <div className="column">
-                <Link href="/cain">
+                <Link href="https://witch-house.vercel.app/cain">
 
                   <GlitchSquiggly onHover={false} className="l">
                     <img
@@ -263,7 +263,7 @@ export function WitchHousePage({ lang }) {
 
               {/* SUICIDEWΛVЕ */}
               <div className="column">
-                <Link href="/suicidewave">
+                <Link href="https://witch-house.vercel.app/suicidewave">
 
                   <GlitchSquiggly onHover={false} className="l">
                     <br /><br /><br />
@@ -284,7 +284,7 @@ export function WitchHousePage({ lang }) {
             <div className="row">
               {/* †▼BF▼CK */}
               <div className="column">
-                <Link href="/tvbfvck">
+                <Link href="https://witch-house.vercel.app/tvbfvck">
 
                   <GlitchSquiggly onHover={false} className="s">
                     <img
@@ -301,7 +301,7 @@ export function WitchHousePage({ lang }) {
 
               {/* †ENEBRÆ */}
               <div className="column">
-                <Link href="/tenebrae">
+                <Link href="https://witch-house.vercel.app/tenebrae">
 
                   <GlitchSquiggly onHover={false} className="s">
                     <img
@@ -318,7 +318,7 @@ export function WitchHousePage({ lang }) {
 
               {/* △Sco△ */}
               <div className="column">
-                <Link href="/scowitchboy">
+                <Link href="https://witch-house.vercel.app/scowitchboy">
 
                   <GlitchSquiggly onHover={false} className="s">
                     <img
@@ -337,7 +337,7 @@ export function WitchHousePage({ lang }) {
             <div className="row">
               {/* ǝțâ ΛЮƂǪɃЬ */}
               <div className="column">
-                <Link href="/etalybovb">
+                <Link href="https://witch-house.vercel.app/etalybovb">
 
                   <GlitchSquiggly onHover={false} className="s">
                     <img
@@ -354,7 +354,7 @@ export function WitchHousePage({ lang }) {
 
               {/* Summer of Haze */}
               <div className="column">
-                <Link href="/summer-of-haze">
+                <Link href="https://witch-house.vercel.app/summer-of-haze">
 
                   <GlitchSquiggly onHover={false} className="s">
                     <img
@@ -371,7 +371,7 @@ export function WitchHousePage({ lang }) {
 
               {/* Mugl */}
               <div className="column" style={{ textAlign: 'center' }}>
-                <Link href="/mugl">
+                <Link href="https://witch-house.vercel.app/mugl">
 
                   <GlitchSquiggly onHover={false} className="s">
                     <img
@@ -391,7 +391,7 @@ export function WitchHousePage({ lang }) {
             <div className="row">
               {/* Fraunhofer Diffraction */}
               <div className="column">
-                <Link href="/fraunhofer-diffraction">
+                <Link href="https://witch-house.vercel.app/fraunhofer-diffraction">
 
                   <GlitchSquiggly onHover={false} className="s">
                     <img
@@ -408,7 +408,7 @@ export function WitchHousePage({ lang }) {
 
               {/* Πлачь Ʒемля */}
               <div className="column">
-                <Link href="/plach-zemlya">
+                <Link href="https://witch-house.vercel.app/plach-zemlya">
 
                   <GlitchSquiggly onHover={false} className="s">
                     <img
@@ -425,7 +425,7 @@ export function WitchHousePage({ lang }) {
 
               {/* D E P R E S S E D 0 4 0 */}
               <div className="column">
-                <Link href="/depressed040">
+                <Link href="https://witch-house.vercel.app/depressed040">
 
                   <GlitchSquiggly onHover={false} className="s">
                     <img
@@ -444,7 +444,7 @@ export function WitchHousePage({ lang }) {
             <div className="row">
               {/* △XIUS LIИK */}
               <div className="column">
-                <Link href="/axius-link">
+                <Link href="https://witch-house.vercel.app/axius-link">
 
                   <GlitchSquiggly onHover={false} className="s">
                     <img
@@ -461,7 +461,7 @@ export function WitchHousePage({ lang }) {
 
               {/* VSN7 */}
               <div className="column">
-                <Link href="/vsn7">
+                <Link href="https://witch-house.vercel.app/vsn7">
 
                   <GlitchSquiggly onHover={false} className="l">
                     <img
@@ -478,7 +478,7 @@ export function WitchHousePage({ lang }) {
 
               {/* BLAME VENUS */}
               <div className="column">
-                <Link href="/blame-venus">
+                <Link href="https://witch-house.vercel.app/blame-venus">
 
                   <GlitchSquiggly onHover={false} className="s">
                     <img
@@ -498,7 +498,7 @@ export function WitchHousePage({ lang }) {
             <div className="row">
               {/* ΛΛ4Я4ZΛΛ */}
               <div className="column">
-                <Link href="/m4r4zm">
+                <Link href="https://witch-house.vercel.app/m4r4zm">
 
                   <GlitchSquiggly onHover={false} className="s">
                     <img
